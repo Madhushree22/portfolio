@@ -1,0 +1,79 @@
+.form {
+    background-color: rgb(8, 8, 34);
+    padding: .5rem 20rem .5rem 20rem;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+
+.form__inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 550px;
+    justify-content: center;
+    border-width: 3px;
+    border-color: rgb(23, 46, 115);
+    box-shadow: 1px 1px 5px 1px rgb(23, 46, 115) inset;
+    border-radius: 10px;
+    padding: 0rem .5rem 0rem .5rem;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+}
+
+.app__contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 910px) {
+    .form {
+        padding: .5rem 5rem .5rem 9rem;
+    }
+
+    .form__inputs {
+        width: 550px
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .form {
+        padding: .5rem 5rem .5rem 8rem;
+    }
+
+    .form__inputs {
+        width: 500px
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .form {
+        padding: .5rem 5rem .5rem 7rem;
+    }
+
+    .form__inputs {
+        width: 450px
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .form {
+        padding: .5rem 5rem .5rem 6rem;
+    }
+
+    .form__inputs {
+        width: 400px
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .form {
+        padding: .5rem 5rem .5rem 5rem;
+    }
+
+    .form__inputs {
+        width: 300px
+    }
+}

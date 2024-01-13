@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from "./Navbar/Navbar"
+import Home from './Home/Home';
+import About from './About/About';
+import Skills from './Skills/Skills';
+import Contact from './Contact/Contact';
+import Certificate from './certificate&project/Certificate';
+import Contactform from './Contact_form/Contactform'
+import Footer from './Footer/Footer';
 
-function App() {
+import './app.css'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Certificate />
+      <Contact />
+      <Contactform />
+      <Footer />
+    </>
+
+  )
 }
 
-export default App;
+export default App
+
+// @media screen and(max - width: 1250px) { }
+
+// @media screen and(max - width: 910px) { }
+
+// @media screen and(max - width: 850px) { }
+
+// @media screen and(max - width: 750px) { }
+
+// @media screen and(max - width: 660px) { }
+
+// @media screen and(max - width: 510px) {}
+
+//  box-shadow: 1px 1px 5px 1px rgb(42, 87, 223);

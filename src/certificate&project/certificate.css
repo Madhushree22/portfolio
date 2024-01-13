@@ -1,0 +1,937 @@
+.app__certificate {
+    padding: 3rem;
+    background-color: rgb(16, 16, 16);
+}
+
+.app__certificate-alone h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: wheat;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+
+.app__projects {
+    padding: 1rem;
+    background-color: rgb(1, 1, 76);
+
+}
+
+.app__certificate-alone {
+    padding: 1rem;
+    background-color: rgb(1, 1, 76);
+}
+
+.app__projects h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: wheat;
+    font-family: serif;
+    letter-spacing: 2px;
+}
+
+.caption {
+    margin-bottom: -15px;
+    color: tomato;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.img {
+    border-radius: 50%;
+    padding: 3.5rem;
+    /* margin-left: 80px; */
+}
+
+.img2 {
+    border-radius: 50%;
+    padding: 3.5rem;
+    /* margin-left: 80px; */
+}
+
+.custom__buttonn {
+    border-radius: 50%;
+    padding: 12px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(9, 9, 53);
+    color: wheat;
+    box-shadow: 1px 1px 5px 1px rgb(82, 82, 177);
+    border: none;
+    /* text-shadow: 1px 1px 5px 4px firebrick; */
+    letter-spacing: 1px;
+}
+
+.custom__buttonn:hover {
+    box-shadow: 1px 1px 5px 1px rgb(82, 82, 177) inset;
+}
+
+.heading {
+    font-size: large;
+
+}
+
+.app__certificate__ {
+    display: flex;
+    justify-content: center;
+}
+
+.app__project__ {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    padding: 0rem 12.5rem 8rem 12.5rem;
+}
+@media screen and (max-width: 1150px) {
+    .app__projects {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 2rem;
+        /* margin-left: 0px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 2rem;
+        /* margin-left: 0px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .item {
+        padding: 0rem 5rem 8rem 5rem;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .app__projects {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 5rem;
+        /* margin-left: 30px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 5rem;
+        /* margin-left: 30px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .item {
+        padding: 0rem 5rem 8rem 5rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app__projects {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 5rem;
+        /* margin-left: -25px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 5rem;
+        /* margin-left: -25px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .item {
+        padding: 0rem 0rem 8rem 0rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .app__projects {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 5rem;
+        /* margin-left: -60px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 5rem;
+        /* margin-left: -60px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .item {
+        padding: 0rem 0rem 8rem 0rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .app__projects {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 3rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 9rem;
+        /* margin-left: -70px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 9rem;
+        /* margin-left: -70px; */
+        /* margin-top: 80px; */
+        width: 600px;
+        height: 400px;
+    }
+
+    .item {
+        padding: 0rem rem 8rem rem;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .app__projects {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 9rem;
+        margin-left: -50px;
+        /* margin-top: 80px; */
+        width: 590px;
+        height: 380px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 9rem;
+        /* margin-left: -60px; */
+        margin-left: -50px;
+        width: 590px;
+    }
+
+    .app__certificate__ {
+        display: block;
+        justify-content: none;
+    }
+
+    .app__project__ {
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .app__projects {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 9rem;
+        margin-left: -70px;
+        /* margin-top: 80px; */
+        width: 590px;
+        height: 380px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 9rem;
+        /* margin-left: -60px; */
+        margin-left: -70px;
+        width: 590px;
+    }
+
+    
+    .app__certificate__ {
+        display: block;
+        justify-content: none;
+    }
+
+    .app__project__ {
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .app__projects {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 9rem;
+        margin-left: -70px;
+        /* margin-top: 80px; */
+        width: 590px;
+        height: 380px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 9rem;
+        margin-left: -70px;
+        width: 590px;
+    }
+
+    .app__certificate__ {
+        display: block;
+        justify-content: none;
+    }
+
+    .app__project__ {
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .app__projects {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 9rem;
+        margin-left: -90px;
+        /* margin-top: 80px; */
+        width: 590px;
+        height: 380px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 9rem;
+        /* margin-left: -60px; */
+        margin-left: -90px;
+        width: 590px;
+    }
+
+    .app__certificate__ {
+        display: block;
+        justify-content: none;
+    }
+
+    .app__project__ {
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .app__projects {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 9rem;
+        margin-left: -110px;
+        /* margin-top: 80px; */
+        width: 590px;
+        height: 380px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 9rem;
+        /* margin-left: -60px; */
+        margin-left: -110px;
+        width: 590px;
+    }
+
+    .app__certificate__ {
+        display: block;
+        justify-content: none;
+    }
+
+    .app__project__ {
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .app__projects {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+
+    }
+
+    .app__certificate-alone {
+        padding: 1rem;
+        background-color: rgb(1, 1, 76);
+    }
+
+    .img {
+        border-radius: 50%;
+        padding: 9rem;
+        margin-left: -110px;
+        /* margin-top: 80px; */
+        width: 590px;
+        height: 380px;
+    }
+
+    .img2 {
+        border-radius: 50%;
+        padding: 9rem;
+        /* margin-left: -60px; */
+        margin-left: -110px;
+        width: 590px;
+    }
+
+    .app__certificate__ {
+        display: block;
+        justify-content: none;
+    }
+
+    .app__project__ {
+        display: block;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.certificate {
+    background-color: rgb(1, 1, 76);
+    padding: 0.5rem 4rem 4rem 3rem;
+}
+
+.certificate h2 {
+    margin-top: 50px;
+    margin-bottom: 22px;
+    text-align: center;
+    color: wheat;
+    letter-spacing: 1px;
+}
+
+
+.app__certificate-whole {
+    flex: 1;
+    display: flex;
+    padding: 0;
+
+  
+}
+
+.app__certificate-img img {
+    border-radius: 45%;
+}
+
+.app__certificate-web {
+    margin-left: 50px;
+}
+
+.app__certificate-html {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.app__certificate-angular {
+    margin-left: 50px;
+}
+
+.app__certificate-UI {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.last {
+    margin-top: 25px;
+}
+
+.app__certificate-virtual {
+    margin-left: 50px;
+}
+
+.app__certificate-cloud {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sticker {
+    size: 100px;
+}
+
+.app__projects {
+    padding: 2rem 0 0 0;
+}
+
+.app__project-whole {
+    flex: 1;
+    display: flex;
+    margin-top: 100px;
+}
+
+.app__project-travel {
+    margin-left: 340px;
+}
+
+.app__project-img img {
+    height: 250px;
+    width: 350px;
+}
+
+.app__project-show {
+    margin-left: 50px;
+} */
+/* 
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 870px) {
+    .certificate {
+        padding: 1rem 0.2rem 1rem 2.9rem;
+    }
+
+    .app__certificate-img img {
+        height: 250px;
+        width: 250px;
+    }
+
+
+
+    .app__certificate-web {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-html {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-angular {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-UI {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-virtual {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-cloud {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-whole {
+        padding: 0.1rem 0rem 0.5rem .1rem;
+    }
+
+    .app__project-whole {
+        margin-top: 0;
+    }
+
+    .app__project-img img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .app__project-travel {
+        margin-left: 180px;
+    }
+
+    .app__project-show {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .certificate {
+        padding: 1rem 0.2rem 1rem 2.9rem;
+    }
+
+    .app__certificate-img img {
+        height: 200px;
+        width: 210px;
+    }
+
+
+
+    .app__certificate-web {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-html {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-angular {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-UI {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-virtual {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-cloud {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-whole {
+        padding: 0.1rem 3rem 0.5rem .1rem;
+    }
+
+    .app__project-whole {
+        margin-top: 0;
+    }
+
+    .app__project-img img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .app__project-travel {
+        margin-left: 90px;
+    }
+
+    .app__project-show {
+        margin-left: 60px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .certificate {
+        padding: 1rem 0.2rem 1rem 0.1rem;
+    }
+
+    .app__certificate-img img {
+        height: 200px;
+        width: 210px;
+    }
+
+    .app__certificate-web {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-html {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-angular {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-UI {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-virtual {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-cloud {
+        margin-left: 10px;
+
+    }
+
+    .app__certificate-whole {
+        padding: 0.1rem 0rem 0.5rem .1rem;
+    }
+
+    .app__project-whole {
+        margin-top: 0;
+    }
+
+    .app__project-img img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .app__project-travel {
+        margin-left: 90px;
+    }
+
+    .app__project-show {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__certificate-img img {
+        height: 200px;
+        width: 350px;
+    }
+
+    .app__certificate-whole {
+        flex-direction: column;
+    }
+
+    .app__certificate-web {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .app__certificate-html {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+
+    .app__certificate-angular {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .app__certificate-UI {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+
+    .app__certificate-virtual {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .app__certificate-cloud {
+        margin-left: 0px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    .app__certificate-whole {
+        padding: 0.1rem 3rem 0.5rem 8rem;
+    }
+
+    .app__certificate-whole {
+        padding: 0.1rem rem 0.5rem 3rem;
+
+    }
+
+    .app__project-whole {
+        flex-direction: column;
+    }
+
+    .app__project-travel {
+        margin-left: 180px;
+    }
+
+    .app__project-show {
+        margin-left: 180px;
+    }
+}
+
+
+
+@media screen and (max-width: 525px) {
+    .app__certificate-img img {
+        height: 150px;
+        width: 300px;
+    }
+
+    .app__certificate-whole {
+        flex-direction: column;
+    }
+
+    .app__certificate-web {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .app__certificate-html {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+
+    .app__certificate-angular {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .app__certificate-UI {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+
+    .app__certificate-virtual {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .app__certificate-cloud {
+        margin-left: 0px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    .app__certificate-whole {
+        padding: 0.1rem 2rem 0.5rem 3rem;
+    }
+
+    .app__project-whole {
+        flex-direction: column;
+    }
+
+    .app__project-travel {
+        margin-left: 50px;
+    }
+
+} */

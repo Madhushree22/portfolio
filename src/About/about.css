@@ -1,0 +1,335 @@
+.app__about {
+    background-color: rgb(16, 16, 16);
+    color: whitesmoke;
+    padding: 2rem 4rem 2rem 2rem;
+}
+.about__heading{
+    margin-left: 30px;
+}
+.about__heading h2 {
+    margin-top: 30px;
+    margin-bottom: 22px;
+    text-align: center;
+    color: wheat;
+    font-family: serif;
+    letter-spacing: 2px;
+    padding: 15px 0px 0px 0px;
+}
+
+.second_part{
+    margin-top: -30px;
+}
+
+.about__content h3 {
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-family: serif;
+}
+
+.about__content h5 {
+    margin-left: 50px;
+    letter-spacing: 2px;
+    font-family: serif;
+}
+
+.about__content p {
+    text-align: justify;
+}
+
+.about__info-content {
+    padding: 0.5rem 8rem 0rem 8rem;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.about__highlight {
+    font-size: medium;
+    font-family: serif;
+}
+
+.qualification__experience {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+
+.qualification__experience-certificate {
+    margin-left: 35px;
+}
+
+.qualification {
+    padding: 0rem 6rem 0.5rem 6rem
+}
+
+.heading {
+    color: wheat;
+    margin-bottom: px;
+    font-size: 25px;
+}
+
+.title {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.year {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.calender {
+    margin-right: 5px;
+}
+
+.about {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.place {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.qualification__experience-internship {
+    margin-left: 320px;
+}
+
+.qualification__education {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 0.5rem 3rem 0.5rem 2rem;
+
+
+}
+
+.qualification__education-school {
+    margin-left: 280px;
+}
+
+@media screen and (max-width: 1250px) {
+    .app__about {
+        padding: 2.5rem 4rem 2rem 4rem;
+    }
+        .about__heading {
+            margin-left: 0px;
+        }
+
+    .about__content h5 {
+        margin-left: 1px;
+    }
+
+    .about__content h3 {
+        margin-left: 1px;
+    }
+
+    .about__info-content {
+        padding: 1rem 0.5rem 1rem 0.6rem;
+    }
+
+    .qualification {
+        padding: 0.5rem 1rem 0.5rem 0.1rem
+    }
+
+    .qualification__experience-internship {
+        margin-left: 150px;
+    }
+
+    .qualification__education-school {
+        margin-left: 110px;
+    }
+
+    .qualification__experience-certificate {
+        margin-left: 0px;
+    }
+
+    .qualification__education {
+        padding: 0.5rem 5rem 0.5rem 0.1rem
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .app__about {
+        padding: 2.5rem 3rem 2rem 3rem;
+    }
+
+    .about__content h5 {
+        margin-left: 1px;
+    }
+
+    .about__content h3 {
+        margin-left: 1px;
+    }
+
+    .about__info-content {
+        padding: 1rem 0.5rem 1rem 0.6rem;
+    }
+
+    .qualification {
+        padding: 0.5rem 1rem 0.5rem 0.1rem
+    }
+
+    .qualification__experience-internship {
+        margin-left: 120px;
+    }
+
+    .qualification__education-school {
+        margin-left: 90px;
+    }
+
+    .qualification__experience-certificate {
+        margin-left: 0px;
+    }
+
+    .qualification__education {
+        padding: 0.5rem 4rem 0.5rem 0.1rem
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app__about {
+        padding: 2.5rem 3rem 2rem 3rem;
+    }
+
+    .about__content h5 {
+        margin-left: 1px;
+    }
+
+    .about__content h3 {
+        margin-left: 1px;
+    }
+
+    .about__info-content {
+        padding: 1rem 0.5rem 1rem 0.6rem;
+    }
+
+    .qualification {
+        padding: 0.5rem 1rem 0.5rem 0.1rem
+    }
+
+    .qualification__experience-internship {
+        margin-left: 90px;
+    }
+
+    .qualification__education-school {
+        margin-left: 70px;
+    }
+
+    .qualification__experience-certificate {
+        margin-left: 0px;
+    }
+
+    .qualification__education {
+        padding: 0.5rem 4rem 0.5rem 0.1rem
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .app__about {
+        padding: 2.5rem 3rem 2rem 3rem;
+    }
+
+    .about__content h5 {
+        margin-left: 1px;
+    }
+
+    .about__content h3 {
+        margin-left: 1px;
+    }
+
+    .about__info-content {
+        padding: 1rem 0.5rem 1rem 0.6rem;
+    }
+
+    .qualification {
+        padding: 0.5rem 1rem 0.5rem 0.1rem
+    }
+
+    .qualification__experience-internship {
+        margin-left: 90px;
+    }
+
+    .qualification__education-school {
+        margin-left: 40px;
+    }
+
+    .qualification__experience-certificate {
+        margin-left: 0px;
+    }
+
+    .qualification__education {
+        padding: 0.5rem 3rem 0.5rem 0.1rem
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .app__about {
+        padding: 3.5rem 2rem 2.5rem 2rem;
+    }
+
+    .about__content h5 {
+        margin-left: 1px;
+    }
+
+    .about__content h3 {
+        margin-left: 1px;
+    }
+
+    .about__info-content {
+        padding: 1rem 0.5rem 1rem 0.6rem;
+    }
+
+    .qualification {
+        padding: 0.5rem 1rem 0.5rem 0.1rem
+    }
+
+    .qualification__experience-internship {
+        margin-left: 60px;
+    }
+
+    .qualification__education-school {
+        margin-left: 10px;
+    }
+
+    .qualification__experience-certificate {
+        margin-left: 0px;
+    }
+
+    .qualification__education {
+        padding: 0.5rem 1rem 0.5rem 0.1rem
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .qualification__experience {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .qualification__experience-internship {
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+
+    .qualification__education {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .qualification__education-school {
+        margin-top: 20px;
+        margin-left: 180px;
+    }
+
+}
